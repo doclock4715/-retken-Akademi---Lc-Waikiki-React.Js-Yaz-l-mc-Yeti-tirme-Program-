@@ -1,0 +1,45 @@
+body {
+    background-color: #9fd1e0;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin: 0px;
+}
+
+.bigTable {
+    width: 582px;
+    height: 539px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: yellow;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid gray;
+    border-left: 5px solid gray;
+}
+
+.square {
+    margin: 3px;
+    border: 1px solid black;
+    width: 186px;
+    height: 171px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.cell {
+    border: 1px solid black;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
