@@ -1,0 +1,43 @@
+
+.profile-img {
+  height: 240px;
+  background-image: url('assets/images/enyu.jpg');
+  background-size: cover;
+}
+
+.title-img {
+  height: 200px;
+  background-image: url('assets/images/vice-captain-enes.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bgimg {
+  color: white;
+  background-image: url('https://wallpaperaccess.com/full/6553316.png');
+  /* resmin ortasından başlanılıyor hizalanmaya */
+  background-position: center;
+  /* background için kullanılan resim küçükse boşlukları doldurmak için tekrar tekrar kullanılıp kullanılmamasını ayarlıyor.*/
+  background-repeat: no-repeat;
+  /* img responsive davranıyor ve ilk başta resmin daha fazla alanını görebiliyoruz  */
+  background-size: cover;
+}
+.biggerFont{
+  font-size: larger;
+}
+/* ---------------------------- Tsubasa Page CSS */
+.tsubasa-img{
+  height: 260px;
+  width: 250px;
+}
+.tsubasa-body{
+  text-align: center;
+}
+.world-cup{
+  height: 40%;
+  width: 80%;
+}
+
+.footer{
+  font-family: 'Whisper', cursive;
+}
