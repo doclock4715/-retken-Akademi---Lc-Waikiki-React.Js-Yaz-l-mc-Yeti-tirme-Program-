@@ -1,0 +1,23 @@
+.bigTable{
+    margin: auto; /* To center */
+    width: 960px; /* (320+320+320) */
+
+}
+.row{
+    display: flex; /* Without these images are in a column, in order to make row we need display flex */
+  /*   flex-direction: row;  
+  display: flex has  row (default) therefore I do not need to specify flex-direction: row
+
+  */
+    /* There is no need to specify width and height value because div takes the maximum width of its parent
+    and takes minumum height of its children. I know like this.
+    Therefore, width is = 960 and height is = 320 (10+300+10).
+    
+    */
+}
+.cell{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-size: contain; /* to show full image in 300x300 because last image is 314x314 */
+}
