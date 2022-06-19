@@ -7,11 +7,12 @@ export default class App extends Component {
   state = {
     people: [],
     loading: false,
-    url: "https://jsonplaceholder.typicode.com/users"
+
   }
 
   componentDidMount() {
-    axios.get(`${this.state.url}`)
+    const url=  "https://jsonplaceholder.typicode.com/users";
+    axios.get(`${url}`)
       .then(res => {
         const people = res.data;
         this.setState({
