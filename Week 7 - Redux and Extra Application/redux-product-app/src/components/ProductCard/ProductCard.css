@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid red;
+    height: 250px;
+    width: 155px;
+    padding: 5px;
+    background-color: white;
+    margin: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: black;
+    
+    
+
+}
+
+div.card:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+.img {
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
